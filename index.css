@@ -3,12 +3,28 @@
     padding: 0;
     margin: 0;
 }
+.container{
+    background-image: url(https://www.tafaria.com/assets/img/IMG_0415.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: opacity 0.9em;
+    height: 110vh;
+}
+.cool{
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    white-space: pre-line;
+}
+
+    
+
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
-    background-color:#8a2f4ae8;
+    background-color:#641a30e8;
     color: white;
 }
 li{
@@ -17,7 +33,7 @@ li{
 .menu{
     display: flex;
     font-size: 20px;
-    margin-right: 50px;
+    margin-right: 30px;
     gap: 6em;
 }
 .menu{
@@ -25,4 +41,59 @@ li{
 }
 .menu li{
     padding: 6px 14px;
+}
+article{
+    font-size: 35px;
+    width: 55em;
+    text-align: center;
+    color: whitesmoke;
+
+    
+}
+aside{
+    font-family: cursive;
+    font-size: 25px;
+}
+form{
+    padding: 20px;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 10px;
+    max-width: fit-content;
+    margin: auto;
+    background-color: azure;
+}
+.name{
+    padding: 10px;
+    margin: 20px;
+}
+.email{
+    padding: 10px;
+    margin: 20px;
+
+}
+.message{
+    padding: 20px 20px 40px 20px;
+    margin: 20px;
+
+}
+aside p{
+    color: whitesmoke;
+}
+.submit{
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 25px;
+    background-color: #641a30e8;
+    color: white;
+    text-emphasis: bold;
+
+}
+article h2{
+    margin: 20px;
+}
+.cool li a{
+    background-color: #641a30e8;
+    color: whitesmoke;
+    font-weight: 100;
+    border-radius: 10px;
 }
